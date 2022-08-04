@@ -1,0 +1,6 @@
+base_url = "https://populix.co/login"
+correct_email = "mustika0305@gmail.com"
+correct_password = "qatester123"
+incorrect_email = "tester@gmail.com"
+incorrect_password = "aaaa"
+full_name = "Mustika Kurnia"
