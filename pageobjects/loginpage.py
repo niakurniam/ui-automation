@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from values import strings
 from .basescreen import BaseScreen
 
-class ServicesPage(BaseScreen):
+class LoginPage(BaseScreen):
     """Models login functionality as a Page Object"""
 
     # login account
@@ -20,6 +20,7 @@ class ServicesPage(BaseScreen):
         self.wait_until_clickable(self.password_input).click()
         password_field = self.select_element(self.password_input)
         password_field.send_keys(password)
+        self.hover_one_of_elements(self.login_button)
         self.wait_until_clickable(self.login_button).click()
 
     def validate_correct_name_is_displayed(self):
