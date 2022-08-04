@@ -29,11 +29,11 @@ Create 3 test suites were used to organize the code:
 ## How to Run Test?
 
 To run tests, run the project in PyCharm:
- * Clone ui-automation repository to local desktop
+ * Clone `ui-automation` repository to local desktop
  ```bash
   git clone https://github.com/niakurniam/ui-automation.git
  ```
- * Open ui-automation project using PyCharm IDE
- * Before running the project, make sure Python 3.x already installed successfully
- * Then, running ui-automation project by click Run > Click Run....
+ * Open `ui-automation` project using PyCharm IDE
+ * Before running the project, make sure `Python 3.x` already installed successfully
+ * Then, running `ui-automation` project by click Run > Click Run....
  * Finally, the project will run and execute the test suite in ChromeDriver
